@@ -84,9 +84,22 @@ export const Slideshow = () => {
           <img className="d-block w-100" src={beerPicker} alt="Fourth slide" />
 
           <Carousel.Caption className="carousel-caption-positon">
-            <h3>Four slide label</h3>
+            <h3>The Draught Picker App</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              This site allows the user to enter a zip code and receive the
+              name, address, phone number, URL, and type of all the breweries
+              that are local to the zip code. The user is give the option save
+              up to five locations to their favorites.
+              <br></br>
+              Go{" "}
+              <a
+                href="https://josephjlyons.github.io/DraughtPicker/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>{" "}
+              to view it.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
