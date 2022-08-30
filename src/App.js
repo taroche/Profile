@@ -1,15 +1,18 @@
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Header } from "./components/Header";
+import Footer from "./components/Footer";
 
-import React from 'react';
-
-import './App.css';
-
-import Footer from './components/Footer';
-
-function App() {
-  return (
-    
-    <Footer/>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Header></Header>
+        <Footer></Footer>
+      </>
+    );
+  }
 }
 
 export default App;
