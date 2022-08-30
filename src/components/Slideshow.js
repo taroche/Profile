@@ -34,6 +34,7 @@ export const Slideshow = () => {
           <img className="d-block w-100" src={weather} alt="Second slide" />
 
           <Carousel.Caption className="carousel-caption-positon">
+            <h3>Weather Dashboard App</h3>
             <p>
               This website allows you to check the weather anywhere in the
               United States. You write the city for whom's weather you would
@@ -59,9 +60,23 @@ export const Slideshow = () => {
           <img className="d-block w-100" src={directory} alt="Third slide" />
 
           <Carousel.Caption className="carousel-caption-positon">
-            <h3>Third slide label</h3>
+            <h3>Employee Directory App</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              A SPA (Single Page Application) that allows the user to sort and
+              filter employees returned from the API. Sortable columns are the
+              following: name, email, phone and birthday. Along with being able
+              to sort columns the user also has a search feature where they can
+              enter a name to search and it will return matching criteria.
+              <br></br>
+              Go{" "}
+              <a
+                href="https://taroche.github.io/Employee-Directory/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>{" "}
+              to view it.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
