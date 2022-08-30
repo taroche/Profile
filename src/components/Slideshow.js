@@ -12,8 +12,22 @@ export const Slideshow = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={noteTaker} alt="First slide" />
           <Carousel.Caption className="carousel-caption-positon">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Note Taker App</h3>
+            <p>
+              This is an app that lets you make notes and save them to a list.
+              The front end was provided for me and I made the database with
+              express and uuid.
+              <br></br>
+              Go{" "}
+              <a
+                href="https://sleepy-thicket-78623.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>{" "}
+              to view it.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
