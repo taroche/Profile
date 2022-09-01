@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
+import { PageHeader } from "../components/PageHeader";
 
-
-function contactPage(props) {
- 
-}
+const contactPage = () => {
+  return <></>;
+};
 
 export default contactPage;
