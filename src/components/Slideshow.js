@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import noteTaker from "../img/Note_taker_homepage.png";
 import directory from "../img/employee-directory-image.png";
 import weather from "../img/Weather-dashboard.png";
-import beerPicker from "../img/websiteImage.png";
+import beerPicker from "../img/DraughtPicker.png";
 
 export const Slideshow = () => {
   return (
