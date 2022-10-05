@@ -28,13 +28,19 @@ const contactPage = () => {
   return (
     <>
       <PageHeader text="Please Contact Me" />
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className="text-center">
         <label>Name</label>
+        <br></br>
         <input type="text" name="user_name" />
+        <br></br>
         <label>Email</label>
+        <br></br>
         <input type="email" name="user_email" />
+        <br></br>
         <label>Message</label>
-        <textarea name="message" />
+        <br></br>
+        <textarea name="message" rows="4" cols="50" />
+        <br></br>
         <input type="submit" value="Send" />
       </form>
     </>
