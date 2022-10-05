@@ -1,5 +1,5 @@
 import React from "react";
 
 export const PageHeader = (props) => {
-  return <h1>{props.text}</h1>;
+  return <h1 className="text-center">{props.text}</h1>;
 };
