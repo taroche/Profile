@@ -17,10 +17,17 @@ const contactPage = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          const success = document.createElement("p");
+          success.className = "p-3 mb-2 bg-success text-white";
+          success.innerText = "Your email has been sent";
+          document.querySelector("form").appendChild(success);
         },
         (error) => {
-          console.log(error.text);
+          const failure = document.createElement("p");
+          failure.className = "p-3 mb-2 bg-danger text-white";
+          failure.innerText =
+            "There was an error please check your information and try again";
+          document.querySelector("form").appendChild(failure);
         }
       );
     e.target.reset();
