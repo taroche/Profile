@@ -6,7 +6,7 @@ const Aboutpage = () => {
     <>
       <PageHeader text="About Me" />
       <div className="aboutMe">
-        <p className="display-4 hello"> Hello!</p>
+        <p className="display-4"> Hello!</p>
         <p>
           Before I became a developer, I was working at Gelato Fiasco. I started
           there as just a simple kitchen working at one of their stores. I would
