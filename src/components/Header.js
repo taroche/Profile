@@ -10,7 +10,7 @@ import { Home } from "../pages/Home";
 
 export const Header = () => {
   return (
-    <Router>
+    <Router basename="/Profile">
       <Container className="p-0" fluid={true}>
         <Navbar className="Navbar" bg="transparent" expand="lg">
           <Container>
