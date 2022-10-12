@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.15c83bb7.css",
-    "main.js": "/Profile/static/js/main.913d8765.js",
-    "static/js/787.f2a0fa2f.chunk.js": "/Profile/static/js/787.f2a0fa2f.chunk.js",
-    "static/media/Weather-dashboard.png": "/Profile/static/media/Weather-dashboard.05c9b9eb82c001568feb.png",
-    "static/media/DraughtPicker.png": "/Profile/static/media/DraughtPicker.783db59f78a8ad0560cd.png",
-    "static/media/employee-directory-image.png": "/Profile/static/media/employee-directory-image.138070babdaa51a98ff9.png",
-    "static/media/Note_taker_homepage.png": "/Profile/static/media/Note_taker_homepage.6078f816abdf16fec507.png",
-    "index.html": "/Profile/index.html",
-    "main.15c83bb7.css.map": "/Profile/static/css/main.15c83bb7.css.map",
-    "main.913d8765.js.map": "/Profile/static/js/main.913d8765.js.map",
-    "787.f2a0fa2f.chunk.js.map": "/Profile/static/js/787.f2a0fa2f.chunk.js.map"
+    "main.css": "/static/css/main.6a84f550.css",
+    "main.js": "/static/js/main.7742cca9.js",
+    "static/js/787.f2a0fa2f.chunk.js": "/static/js/787.f2a0fa2f.chunk.js",
+    "static/media/Weather-dashboard.png": "/static/media/Weather-dashboard.05c9b9eb82c001568feb.png",
+    "static/media/DraughtPicker.png": "/static/media/DraughtPicker.783db59f78a8ad0560cd.png",
+    "static/media/profile-picture.png": "/static/media/profile-picture.5a31dcfb76de01df74b5.png",
+    "static/media/employee-directory-image.png": "/static/media/employee-directory-image.138070babdaa51a98ff9.png",
+    "static/media/Note_taker_homepage.png": "/static/media/Note_taker_homepage.6078f816abdf16fec507.png",
+    "index.html": "/index.html",
+    "main.6a84f550.css.map": "/static/css/main.6a84f550.css.map",
+    "main.7742cca9.js.map": "/static/js/main.7742cca9.js.map",
+    "787.f2a0fa2f.chunk.js.map": "/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15c83bb7.css",
-    "static/js/main.913d8765.js"
+    "static/css/main.6a84f550.css",
+    "static/js/main.7742cca9.js"
   ]
 }
