@@ -13,40 +13,42 @@ export const Header = () => {
     <Router>
       <Container className="p-0" fluid={true}>
         <Navbar className="Navbar" bg="transparent" expand="lg">
-          <Navbar.Brand className="nav-fonts">Tristan LaRoche</Navbar.Brand>
-          <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-          <Navbar.Collapse id="navbar-toggle">
-            <Nav className="ml-auto">
-              <Link
-                className="nav-fonts font-weight-bolder nav-link mr-4"
-                to="/"
-              >
-                {" "}
-                Home
-              </Link>
-              <Link
-                className="nav-fonts font-weight-bolder nav-link mr-4"
-                to="/project"
-              >
-                {" "}
-                Projects
-              </Link>
-              <Link
-                className="nav-fonts font-weight-bolder nav-link mr-4"
-                to="/about"
-              >
-                {" "}
-                About
-              </Link>
-              <Link
-                className="nav-fonts font-weight-bolder nav-link"
-                to="/contact"
-              >
-                {" "}
-                Contact
-              </Link>
-            </Nav>
-          </Navbar.Collapse>
+          <Container>
+            <Navbar.Brand className="nav-fonts">Tristan LaRoche</Navbar.Brand>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link
+                  className="nav-fonts font-weight-bolder nav-link mr-4"
+                  to="/"
+                >
+                  {" "}
+                  Home
+                </Link>
+                <Link
+                  className="nav-fonts font-weight-bolder nav-link mr-4"
+                  to="/project"
+                >
+                  {" "}
+                  Projects
+                </Link>
+                <Link
+                  className="nav-fonts font-weight-bolder nav-link mr-4"
+                  to="/about"
+                >
+                  {" "}
+                  About
+                </Link>
+                <Link
+                  className="nav-fonts font-weight-bolder nav-link"
+                  to="/contact"
+                >
+                  {" "}
+                  Contact
+                </Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
         </Navbar>
         <Routes>
           <Route path="/" element={<Home />} />

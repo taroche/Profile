@@ -1,13 +1,21 @@
 import React from "react";
 import { PageHeader } from "../components/PageHeader";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import HTML from "../img/html.png";
+import CSS from "../img/css.png";
+import JS from "../img/java-script.png";
+import ReactJS from "../img/React.png";
+import angularJS from "../img/angular.png";
 
 const Aboutpage = () => {
   return (
     <>
       <PageHeader text="About Me" />
       <div className="aboutMe">
-        <p className="display-4"> Hello!</p>
-        <p>
+        <p className="display-4 ps-5"> Hello!</p>
+        <p className="p-2 ps-5">
           Before I became a developer, I was working at Gelato Fiasco. I started
           there as just a simple kitchen working at one of their stores. I would
           spend the days making gelato for each customer that walked into the
@@ -29,7 +37,7 @@ const Aboutpage = () => {
           everything until they decide to close their factory to switch to a
           third-party provider of cost resounds.
         </p>
-        <p>
+        <p className="p-2 ps-5">
           I then switch to follow my dream to be a web developer. I went down to
           Maryland to go to a front-end development boot camp. Where I learn
           HTML, CSS, and JavaScript. I then got my first job in tech for
@@ -45,9 +53,97 @@ const Aboutpage = () => {
           Clicknotices go. I then came back to Maine and enrolled in the UNH
           full stack development boot camp to learn to do more things then just
           front end. I am currently working for Banyan Hill Publishing and an
-          email production assousite. Where I make and send 30 emails a day.
+          email production associate. Where I make and send 30 emails a day to
+          around 500,000 people.
         </p>
+        <PageHeader text="Skills" />
       </div>
+      <Container>
+        <div class="slidecontainer">
+          <Row>
+            <Col md={1}>
+              <img src={HTML} alt="HTML" />
+            </Col>
+            <Col md={11}>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="95"
+                className="slider"
+              />
+            </Col>
+          </Row>
+        </div>
+
+        <div class="slidecontainer">
+          <Row>
+            <Col md={1}>
+              <img src={CSS} alt="CSS" />
+            </Col>
+            <Col md={11}>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="85"
+                className="slider"
+              />
+            </Col>
+          </Row>
+        </div>
+
+        <div class="slidecontainer">
+          <Row>
+            <Col md={1}>
+              <img src={JS} alt="JS" />
+            </Col>
+            <Col md={11}>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="75"
+                className="slider"
+              />
+            </Col>
+          </Row>
+        </div>
+
+        <div class="slidecontainer">
+          <Row>
+            <Col md={1}>
+              <img src={ReactJS} alt="React" />
+            </Col>
+            <Col md={11}>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="55"
+                className="slider"
+              />
+            </Col>
+          </Row>
+        </div>
+
+        <div class="slidecontainer">
+          <Row>
+            <Col md={1}>
+              <img src={angularJS} alt="Angular" />
+            </Col>
+            <Col md={11}>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="35"
+                className="slider"
+              />
+            </Col>
+          </Row>
+        </div>
+      </Container>
     </>
   );
 };

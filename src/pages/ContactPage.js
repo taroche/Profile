@@ -35,7 +35,7 @@ const contactPage = () => {
 
   return (
     <>
-      <PageHeader text="Please Contact Me" />
+      <PageHeader text="Let's have a chat" />
       <form ref={form} onSubmit={sendEmail} className="text-center">
         <label>Name</label>
         <br></br>

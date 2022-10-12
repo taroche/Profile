@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 class App extends React.Component {
   render() {
     return (
-      <>
+      <div className="appBody">
         <Header></Header>
         <Footer></Footer>
-      </>
+      </div>
     );
   }
 }

@@ -1,3 +1,10 @@
+.appBody {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
 .carousel-container {
   display:flex;
   align-items: center;
@@ -14,22 +21,16 @@
   }
 
   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: white;
   }
 
-  .push {
-    height: 100px;
-  }
 
   .hello {
     background: 
       linear-gradient(#0007, #0000),
       #123;
-    height: 100vh;
+    height: 85vh;
     overflow: hidden;
   }
   
@@ -125,6 +126,22 @@
   /*   transform: translate(44vmin, -50%) rotate(170deg) scale(1.15) rotateY(-30deg); */
     transform: translate(-50%, -50%) rotate(170deg) scale(1.15) rotateY(-30deg);
   /*   animation: fireworkPseudo 2s infinite; */
+  }
+
+  .slidecontainer {
+    width: 100%; 
+    margin-bottom: 2%;
+  }
+  
+
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 85%; 
+    height: 1px; 
+    background: #882121; 
+    outline: none; 
+    transition: opacity .2s;
   }
 
   @media only screen and (max-width: 600px){
