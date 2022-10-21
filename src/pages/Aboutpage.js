@@ -11,7 +11,7 @@ import angularJS from "../img/angular.png";
 
 const Aboutpage = () => {
   return (
-    <>
+    <div className="pageBody">
       <PageHeader text="About Me" />
       <div className="aboutMe">
         <p className="display-4 ps-5"> Hello!</p>
@@ -56,95 +56,75 @@ const Aboutpage = () => {
           email production associate. Where I make and send 30 emails a day to
           around 500,000 people.
         </p>
-        <PageHeader text="Skills" />
+        <PageHeader text="Skill Level" />
       </div>
       <Container>
-        <div class="slidecontainer">
+        <div>
           <Row>
             <Col md={1}>
               <img src={HTML} alt="HTML" />
             </Col>
             <Col md={11}>
-              <input
-                type="range"
-                min="1"
-                max="100"
-                value="95"
-                className="slider"
-              />
+              <div className="slidecontainer">
+                <div className="skills html text-dark">99%</div>
+              </div>
             </Col>
           </Row>
         </div>
 
-        <div class="slidecontainer">
+        <div>
           <Row>
             <Col md={1}>
               <img src={CSS} alt="CSS" />
             </Col>
             <Col md={11}>
-              <input
-                type="range"
-                min="1"
-                max="100"
-                value="85"
-                className="slider"
-              />
+              <div className="slidecontainer">
+                <div className="skills CSS text-dark">71%</div>
+              </div>
             </Col>
           </Row>
         </div>
 
-        <div class="slidecontainer">
+        <div>
           <Row>
             <Col md={1}>
               <img src={JS} alt="JS" />
             </Col>
             <Col md={11}>
-              <input
-                type="range"
-                min="1"
-                max="100"
-                value="75"
-                className="slider"
-              />
+              <div className="slidecontainer">
+                <div className="skills JS text-dark">82%</div>
+              </div>
             </Col>
           </Row>
         </div>
 
-        <div class="slidecontainer">
+        <div>
           <Row>
             <Col md={1}>
               <img src={ReactJS} alt="React" />
             </Col>
             <Col md={11}>
-              <input
-                type="range"
-                min="1"
-                max="100"
-                value="55"
-                className="slider"
-              />
+              <div className="slidecontainer">
+                <div className="skills React text-dark">61%</div>
+              </div>
             </Col>
           </Row>
         </div>
 
-        <div class="slidecontainer">
+        <div>
           <Row>
             <Col md={1}>
               <img src={angularJS} alt="Angular" />
             </Col>
             <Col md={11}>
-              <input
-                type="range"
-                min="1"
-                max="100"
-                value="35"
-                className="slider"
-              />
+              <div className="slidecontainer">
+                <div className="skills Angular text-dark">25%</div>
+              </div>
             </Col>
           </Row>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 
