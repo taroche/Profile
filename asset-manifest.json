@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.6a84f550.css",
-    "main.js": "/Profile/static/js/main.89715e6e.js",
+    "main.css": "/Profile/static/css/main.10278efc.css",
+    "main.js": "/Profile/static/js/main.178b85e1.js",
     "static/js/787.f2a0fa2f.chunk.js": "/Profile/static/js/787.f2a0fa2f.chunk.js",
     "static/media/Weather-dashboard.png": "/Profile/static/media/Weather-dashboard.05c9b9eb82c001568feb.png",
     "static/media/DraughtPicker.png": "/Profile/static/media/DraughtPicker.783db59f78a8ad0560cd.png",
     "static/media/profile-picture.png": "/Profile/static/media/profile-picture.5a31dcfb76de01df74b5.png",
+    "static/media/TAL_resumes.mht": "/Profile/static/media/TAL_resumes.302d49adcfd62e1d1959.mht",
     "static/media/employee-directory-image.png": "/Profile/static/media/employee-directory-image.138070babdaa51a98ff9.png",
     "static/media/Note_taker_homepage.png": "/Profile/static/media/Note_taker_homepage.6078f816abdf16fec507.png",
     "index.html": "/Profile/index.html",
-    "main.6a84f550.css.map": "/Profile/static/css/main.6a84f550.css.map",
-    "main.89715e6e.js.map": "/Profile/static/js/main.89715e6e.js.map",
+    "main.10278efc.css.map": "/Profile/static/css/main.10278efc.css.map",
+    "main.178b85e1.js.map": "/Profile/static/js/main.178b85e1.js.map",
     "787.f2a0fa2f.chunk.js.map": "/Profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a84f550.css",
-    "static/js/main.89715e6e.js"
+    "static/css/main.10278efc.css",
+    "static/js/main.178b85e1.js"
   ]
 }
