@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import Resume from "../img/TAL_resumes.mht";
 
 const contactPage = () => {
   const form = createRef();
@@ -46,6 +47,9 @@ const contactPage = () => {
             <p>
               If you want to talk to me about anything you can fill out the form
               and send me which will send me an email.
+            </p>
+            <p>
+              Resume: <a href={Resume}>Read the full file</a>.
             </p>
           </Col>
           <Col md={6} sm={12}>
