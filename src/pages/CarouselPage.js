@@ -4,10 +4,10 @@ import { PageHeader } from "../components/PageHeader";
 
 const CarouselPage = () => {
   return (
-    <>
+    <div className="pageBody">
       <PageHeader text="My Projects" />
       <Slideshow />
-    </>
+    </div>
   );
 };
 
