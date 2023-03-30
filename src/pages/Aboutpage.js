@@ -16,46 +16,17 @@ const Aboutpage = () => {
       <div className="aboutMe">
         <p className="display-4 ps-5"> Hello!</p>
         <p className="p-2 ps-5">
-          Before I became a developer, I was working at Gelato Fiasco. I started
-          there as just a simple kitchen working at one of their stores. I would
-          spend the days making gelato for each customer that walked into the
-          door. They then decide to expand their business to make pints to sell
-          in the shores all around America and for that they build a factory.
-          When we moved into the new factory, they grabbed a couple of us form
-          the kitchen to work there and since I had proven to be one of the
-          harder workers there, I was put in charge of one of the two shifts
-          even though I was one of the newer people. While in charge of my shift
-          I made sure to always hit the number that they set for that day and to
-          try and go above it whenever possible. In fact, I like to treat every
-          day like a competition between us and the other shift so see who got
-          more done (and I very rarely lost). The company then bought some new
-          equipment to help produce things faster and because my shift was the
-          more productive of the two, I was put in charge of learning the new
-          machine and any other that we would get. I spent 2 years overseeing
-          maintenance of all the machines under a great factory manager and when
-          she left, I was promoted to her job where I would be in charge of
-          everything until they decide to close their factory to switch to a
-          third-party provider of cost resounds.
+        Before I became a web developer, I worked at Gelato Fiasco, starting as a kitchen worker at one of their stores. I made gelato for every customer that walked in the door. When they decided to expand their business by building a factory to sell pints of gelato in stores all over America, they asked me and a few others to work there. I worked hard and was eventually put in charge of one of the two shifts, where I treated every day as a competition to see who could be more productive.
         </p>
         <p className="p-2 ps-5">
-          I then switch to follow my dream to be a web developer. I went down to
-          Maryland to go to a front-end development boot camp. Where I learn
-          HTML, CSS, and JavaScript. I then got my first job in tech for
-          Concourse Federal Group as a contract working in quality assurance.
-          Just going over their code checking their spelling and grammar (since
-          it was not written by native English speakers). When the contract
-          ended, I got another job working at Clicknotices doing a lot of code
-          refactoring. They had an old web site that had a lot of copy and
-          pasted code that they wanted to make a lot cleaner and more reusable.
-          They then got bought out and the company that did it decided to just
-          scrap the whole project and to use their one development team to
-          remake the whole thing. So, they let the development team at
-          Clicknotices go. I then came back to Maine and enrolled in the UNH
-          full stack development boot camp to learn to do more things then just
-          front end. I am currently working for Banyan Hill Publishing and an
-          email production associate. Where I make and send 30 emails a day to
-          around 500,000 people.
+        As the company grew, they bought new equipment to help us produce more gelato. Because my shift was more productive, I was put in charge of learning and maintaining the new machines. When the factory manager left, I was promoted to her job where I was in charge of everything until the company decided to close the factory and switch to a third-party provider of cost resounds.
         </p>
+        <p className="p-2 ps-5">
+        After working at Gelato Fiasco, I decided to pursue my dream of becoming a web developer. I enrolled in a front-end development boot camp in Maryland where I learned HTML, CSS, and JavaScript. My first job in tech was as a contract quality assurance worker at Concourse Federal Group. I reviewed their code for errors, particularly spelling and grammar issues due to non-native English speakers writing the code.</p>
+        <p className="p-2 ps-5">
+        My next job was at Clicknotices, where I focused on code refactoring. They had an old website with a lot of copy-and-pasted code that needed to be made cleaner and more reusable. Unfortunately, the company that acquired Clicknotices decided to scrap the project and rebuild the website using their own development team, which meant that the Clicknotices development team, including me, was let go.</p>
+        <p className="p-2 ps-5">
+        After returning to Maine, I enrolled in the full-stack development boot camp at UNH to learn more about back-end development. While attending the boot camp, I landed a job as an email production associate for Banyan Hill Publishing. In this role, I send around 30 emails per day to a large subscriber base of 500,000 people.</p>
         <PageHeader text="Skill Level" />
       </div>
       <Container>
