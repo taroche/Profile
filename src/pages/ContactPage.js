@@ -1,5 +1,5 @@
 import { React, createRef } from "react";
-import emailjs from "@emailjs/browser";
+//import emailjs from "@emailjs/browser";
 import { PageHeader } from "../components/PageHeader";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,7 +10,7 @@ import Resume from "../img/TAL_resumes.mht";
 const contactPage = () => {
   const form = createRef();
 
-  const sendEmail = (e) => {
+  /*const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -36,7 +36,7 @@ const contactPage = () => {
         }
       );
     e.target.reset();
-  };
+  };*/
 
   return (
     <div className="pageBody">
@@ -55,7 +55,7 @@ const contactPage = () => {
           <Col md={6} sm={12}>
             <form
               ref={form}
-              onSubmit={sendEmail}
+              //onSubmit={sendEmail}
               className="text-left formElement"
             >
               <label>Name:</label>
