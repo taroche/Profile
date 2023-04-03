@@ -63,6 +63,26 @@
     width: 300px;
     height: auto;
   }
+
+  .x {
+    animation: x 13s linear infinite alternate;
+  }
+  
+  .y {
+    animation: y 7s linear infinite alternate;
+  }
+  
+  @keyframes x {
+    100% {
+      transform: translateX( calc(100% - 300px) );
+    }
+  }
+  
+  @keyframes y {
+    100% {
+      transform: translateY( calc(85vh - 300px) );
+    }
+  }
   
   @keyframes firework {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
