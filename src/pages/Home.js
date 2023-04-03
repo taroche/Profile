@@ -21,11 +21,13 @@ export const Home = () => {
             <div className="firework"></div>
           </Col>
           <Col md={6} sm={12}>
+            <div className="x">
             <img
               src={profilePicture}
               alt="profile"
-              className="profilePicture"
+              className="profilePicture y"
             />
+            </div>
           </Col>
         </Row>
       </Container>
