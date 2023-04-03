@@ -58,6 +58,11 @@
     width: 100%;
     margin-bottom: 3%;
   }
+
+  .profilePicture {
+    width: 300px;
+    height: auto;
+  }
   
   @keyframes firework {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
