@@ -6,7 +6,7 @@
 }
 
 .pageBody {
-  min-height: 85vh;
+  min-height: 80vh;
 }
 
 .skills {
@@ -50,7 +50,6 @@
     background: 
       linear-gradient(#0007, #0000),
       #123;
-    height: 85vh;
     overflow: hidden;
   }
 
