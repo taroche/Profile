@@ -73,13 +73,13 @@
   
   @keyframes x {
     100% {
-      transform: translateX( calc(100% - 300px) );
+      transform: translateX( calc(56vw - 300px) );
     }
   }
   
   @keyframes y {
     100% {
-      transform: translateY( calc(85vh - 300px) );
+      transform: translateY( calc(100vh - 300px) );
     }
   }
   
