@@ -51,6 +51,7 @@ const contactPage = () => {
             <p>
               Resume: <a href={Resume}>Read the full file</a>.
             </p>
+            <p>Fun Fact about today</p>
             <p></p>
           </Col>
           <Col md={6} sm={12}>
