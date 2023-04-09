@@ -28,6 +28,7 @@ function FunFact() {
 
   return (
     <div>
+        <h2>Fun Fact About Today!!</h2>
       <p>{funFact}</p>
     </div>
   );
