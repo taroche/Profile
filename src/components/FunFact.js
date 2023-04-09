@@ -7,7 +7,7 @@ function FunFact() {
   useEffect(() => {
     const xhr = new XMLHttpRequest();
     const d = new Date();
-    const m = d.getMonth();
+    const m = d.getMonth() + 1;
     const day = d.getDate();
 
     xhr.onload = function() {
@@ -22,13 +22,13 @@ function FunFact() {
       }
     };
 
-    xhr.open('GET', `http://numbersapi.com/${day}/${m}/date?notfound=floor&fragment`, true);
+    xhr.open('GET', `http://numbersapi.com/${m}/${day}/date`, true);
     xhr.send();
   }, []);
 
   return (
     <div className="funfact">
-        <h2>Fun Fact About Today!!</h2>
+        <h3>Fun Fact About Today!!</h3>
       <p>{funFact}</p>
     </div>
   );
