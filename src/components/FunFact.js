@@ -17,7 +17,8 @@ xhr.onreadystatechange = function() {
     }
   };
 
-
+  xhr.open('GET', `http://numbersapi.com/${day}/${m}/date?notfound=floor&fragment`, true);
+  xhr.send();
 
 const FunFact = () => {
     return (
