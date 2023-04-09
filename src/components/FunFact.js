@@ -1,5 +1,7 @@
 import React from "react";
 
+const xhr = new XMLHttpRequest();
+
 const FunFact = () => {
     return (
       <div>
