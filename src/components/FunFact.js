@@ -1,7 +1,9 @@
 import React from "react";
 
 const xhr = new XMLHttpRequest();
-
+const d = new Date();
+const m = d.getMonth();
+const day = d.getDate();
 
 xhr.onreadystatechange = function() {
     if (xhr.readyState === XMLHttpRequest.DONE) {
