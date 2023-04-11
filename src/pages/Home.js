@@ -2,9 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import profilePicture from "../img/profile-picture.png";
+import profilePictureImg from "../img/profile-picture.png";
 
 export const Home = () => {
+  
   return (
     <div className="hello pageBody">
       <Container>
@@ -17,13 +18,12 @@ export const Home = () => {
               projects and learn a little bit about me.
             </p>
             <div className="firework"></div>
-            <div className="firework"></div>
-            <div className="firework"></div>
+
           </Col>
           <Col md={6} sm={12}>
             <div className="x">
             <img
-              src={profilePicture}
+              src={profilePictureImg}
               alt="profile"
               className="profilePicture y"
             />
